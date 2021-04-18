@@ -1,0 +1,20 @@
+.homePage {
+  padding: 10px;
+}
+
+.homePage__top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+
+.homePage__buttonAdd {
+  padding: 10px 20px;
+  background-color: rgb(42, 170, 255);
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
