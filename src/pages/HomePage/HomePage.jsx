@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ContactList from "../../components/ContactList/ContactList";
 import "./HomePage.css";
 
@@ -7,9 +8,9 @@ const HomePage = () => {
     <div className="homePage">
       <div className="homePage__top">
         <h1 className="homePage__contactList">CONTACT LIST</h1>
-        <a href="" className="homePage__buttonAdd">
+        <Link to="/add" className="homePage__buttonAdd">
           Add Contact
-        </a>
+        </Link>
       </div>
       <div className="homePage__bottom">
         <ContactList name="Budi Santoso" email="bdisanttoso@gmail.com" />

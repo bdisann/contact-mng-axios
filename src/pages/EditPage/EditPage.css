@@ -1,0 +1,50 @@
+.editPage__top {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+
+.editPage__buttonCancel {
+  padding: 10px 20px;
+  background-color: rgb(255, 92, 42);
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+
+.editPage__bottom {
+  padding: 10px;
+}
+.editPage__bottom > form {
+  display: flex;
+  flex-direction: column;
+}
+
+.editPage__bottom > form > button {
+  padding: 10px 25px;
+  background-color: rgb(148, 250, 135);
+  font-weight: 500;
+  font-size: x-large;
+  width: 100px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.form__group {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.form__group > input {
+  padding: 10px 10px;
+  border: none;
+  background-color: lightgray;
+  margin: 10px 0;
+  border-radius: 10px;
+  outline-width: 0;
+}

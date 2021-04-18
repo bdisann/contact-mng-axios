@@ -1,7 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ContactList.css";
 
-const ContactList = ({ name, email, id }) => {
+const ContactList = ({ name, email, id = 1 }) => {
   return (
     <div className="contactList">
       <div className="contactList__left">
@@ -15,7 +16,7 @@ const ContactList = ({ name, email, id }) => {
       </div>
       <div className="contactList__right">
         <div className="contactList__panel">
-          <i className="fas fa-edit icon"></i>
+          <Link to={`/edit/${id}`} className="fas fa-edit icon"></Link>
         </div>
         <div className="contactList__panel">
           <i className="fas fa-trash icon"></i>
